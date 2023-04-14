@@ -1,0 +1,36 @@
+html {
+  font-size: var(--font-size, 15px);
+  width: 100%;
+  width: 100vw;
+  --at-apply: bg-base text-base;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* Force vertical scrollbar to be always visible to avoid layout shift while loading the content */
+body {
+  overflow-y: scroll;
+  -webkit-tap-highlight-color: transparent;
+}
+
+select:not([size]) {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236B7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E");
+  background-position: right .5rem center;
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+  padding-right: 2.5rem;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact
+}
+
+[multiple] {
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: unset;
+  background-size: initial;
+  padding-right: .75rem;
+  -webkit-print-color-adjust: unset;
+  print-color-adjust: unset
+}

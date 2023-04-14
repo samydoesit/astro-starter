@@ -1,0 +1,37 @@
+---
+import '@/styles/default-theme.css'
+import '@/styles/vars.css'
+import '@/styles/global.css'
+
+// Component Imports
+import Counter from '../components/Counter.vue';
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<!--     <style>
+      html,
+      body {
+        font-family: system-ui;
+        margin: 0;
+      }
+      body {
+        padding: 2rem;
+      }
+    </style> -->
+  </head>
+  <body>
+    <main class="h-max-screen relative grid grid-cols-1 h-[100dvh] w-screen gap-4 overflow-hidden bg-$c-bg-base lg:h-screen sm:gap-1">
+      <Counter client:visible msg={'Neue'}>
+        <h1>Hello, Astro & Vue!</h1>
+      </Counter>
+    </main>
+  </body>
+</html>
