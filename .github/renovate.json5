@@ -1,0 +1,130 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "rebaseWhen": "behind-base-branch",
+  "labels": [
+    "dependencies"
+  ],
+  "packageRules": [
+    {
+      "groupName": "devDependencies",
+      "matchDepTypes": ["devDependencies"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "groupName": "dependencies",
+      "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "replace"
+    },
+    {
+      "groupName": "eslint",
+      "commitMessageTopic": "linting dependency {{depName}}",
+      "matchPackageNames": [
+        "@antfu/eslint-config",
+        "@types/prettier",
+        "eslint",
+        "prettier"
+      ],
+      "matchPackagePatterns": [
+        "eslint"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "matchDatasources": [
+        "npm"
+      ]
+    },
+    {
+      "groupName": "iconify",
+      "matchPackagePatterns": ["^@iconify"]
+    },
+    {
+      "groupName": "vueuse",
+      "matchPackagePatterns": ["^@vueuse"]
+    },
+    {
+      "groupName": "astro core",
+      "groupSlug": "astro",
+      "matchPackageNames": [
+        "astro"
+      ],
+      "matchPackagePatterns": [
+        "^@astro/"
+      ]
+    },
+    {
+      "groupName": "unocss",
+      "commitMessageTopic": "unocss-group dependency {{depName}}",
+      "matchPackagePatterns": [
+        "unocss"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "matchDatasources": [
+        "npm"
+      ]
+    },
+    {
+      "groupName": "vite",
+      "commitMessageTopic": "vite-group dependency {{depName}}",
+      "matchPackagePrefixes": [
+        "vite"
+      ],
+      "matchPackagePatterns": [
+        "^@vitejs/"
+      ],
+      "excludePackagePatterns": [
+        "unocss"
+      ],
+      "excludePackageNames": [
+        "vitest"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "matchDatasources": [
+        "npm"
+      ]
+    },
+    {
+      "groupName": "vue",
+      "commitMessageTopic": "vue-group dependency {{depName}}",
+      "matchPackagePrefixes": [
+        "vue",
+        "@vue"
+      ],
+      "excludePackagePatterns": [
+        "storybook"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "matchDatasources": [
+        "npm"
+      ]
+    },
+    {
+      "groupName": "node",
+      "matchPackageNames": [
+        "node",
+        "@types/node"
+      ]
+    },
+    {
+      "groupName": "@types",
+      "matchPackagePatterns": ["^@?types"]
+    }
+  ]
+}
