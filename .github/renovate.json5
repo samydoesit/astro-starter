@@ -49,12 +49,11 @@
     },
     {
       "groupName": "astro core",
-      "groupSlug": "astro",
       "matchPackageNames": [
         "astro"
       ],
       "matchPackagePatterns": [
-        "^@astro/"
+        "^@astrojs/"
       ]
     },
     {
