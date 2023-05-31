@@ -42,20 +42,20 @@
       ]
     },
     {
-      "groupName": "iconify",
-      "matchPackagePatterns": ["^@iconify"]
-    },
-    {
-      "groupName": "vueuse",
-      "matchPackagePatterns": ["^@vueuse"]
-    },
-    {
       "groupName": "astro core",
       "matchPackageNames": [
         "astro"
       ],
       "matchPackagePatterns": [
         "^@astrojs/"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "matchDatasources": [
+        "npm"
       ]
     },
     {
