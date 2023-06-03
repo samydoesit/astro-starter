@@ -39,30 +39,30 @@ jobs:
       - name: 💪 Lint
         run: nr lint
 
-  # typecheck:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v3
+  typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
 
-  #     - name: Install pnpm
-  #       uses: pnpm/action-setup@v2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
 
-  #     - name: Set node
-  #       uses: actions/setup-node@v3
-  #       with:
-  #         node-version: 18.x
-  #         cache: pnpm
+      - name: Set node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: pnpm
 
-  #     - name: Setup
-  #       run: npm i -g @antfu/ni
+      - name: Setup
+        run: npm i -g @antfu/ni
 
-  #     - name: 📦 Install
-  #       run: nci
-  #       env:
-  #         PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+      - name: 📦 Install
+        run: nci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
 
-  #     - name: 🔗 Typecheck
-  #       run: nr typecheck
+      - name: 🔗 Typecheck
+        run: nr typecheck
 
   test:
     runs-on: ${{ matrix.os }}
