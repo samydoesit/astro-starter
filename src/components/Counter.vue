@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 defineProps<{ msg?: String }>()
-const count = ref(0)
+const count = ref<number>(0)
 function add() {
   return count.value = count.value + 1
 }
