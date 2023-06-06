@@ -25,9 +25,13 @@ export default defineConfig({
     transformerDirectives(),
     transformerVariantGroup(),
   ],
-  include: [
-    '**/*.ts',
-    '**/*.vue',
-    '**/*.astro',
-  ],
+  content: {
+    pipeline: {
+      include: [
+        '**/*.ts',
+        '**/*.vue',
+        '**/*.astro',
+      ],
+    },
+  },
 })
