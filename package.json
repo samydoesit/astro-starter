@@ -27,7 +27,7 @@
     "@unocss/preset-wind": "0.53.1",
     "@unocss/reset": "0.53.1",
     "@vite-pwa/astro": "0.1.1",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "eslint-define-config": "1.20.0",
     "eslint-plugin-astro": "0.27.1",
     "eslint-plugin-jsx-a11y": "6.7.1",
