@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.39.6",
-    "@babel/core": "7.22.5",
+    "@babel/core": "7.22.6",
     "@typescript-eslint/parser": "5.61.0",
     "@unocss/eslint-config": "0.53.4",
     "@unocss/preset-icons": "0.53.4",
