@@ -19,7 +19,7 @@
     "vue": "3.3.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.39.6",
+    "@antfu/eslint-config": "0.39.7",
     "@babel/core": "7.22.9",
     "@typescript-eslint/parser": "5.62.0",
     "@unocss/eslint-config": "0.53.5",
