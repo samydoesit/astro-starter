@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@astrojs/vue':
     specifier: 3.0.1
-    version: 3.0.1(@babel/core@7.23.0)(astro@3.2.3)(vite@4.4.11)(vue@3.3.4)
+    version: 3.0.1(@babel/core@7.23.0)(astro@3.2.4)(vite@4.4.11)(vue@3.3.4)
   astro:
-    specifier: 3.2.3
-    version: 3.2.3
+    specifier: 3.2.4
+    version: 3.2.4
   vue:
     specifier: 3.3.4
     version: 3.3.4
@@ -39,7 +39,7 @@ devDependencies:
     version: 0.56.5
   '@vite-pwa/astro':
     specifier: 0.1.3
-    version: 0.1.3(astro@3.2.3)(vite-plugin-pwa@0.16.5)
+    version: 0.1.3(astro@3.2.4)(vite-plugin-pwa@0.16.5)
   eslint:
     specifier: 8.44.0
     version: 8.44.0
@@ -211,13 +211,13 @@ packages:
   /@astrojs/internal-helpers@0.2.1:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
 
-  /@astrojs/markdown-remark@3.2.1(astro@3.2.3):
+  /@astrojs/markdown-remark@3.2.1(astro@3.2.4):
     resolution: {integrity: sha512-Z4YNMRtgFZeHhB29uCZl0B9MbMZddW9ZKCNucapoysbvygbDFF1gGtqpVnf+Lyv3rUBHwM/J5qWB2MSZuTuz1g==}
     peerDependencies:
       astro: ^3.2.3
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 3.2.3
+      astro: 3.2.4
       github-slugger: 2.0.0
       import-meta-resolve: 3.0.0
       mdast-util-definitions: 6.0.0
@@ -254,7 +254,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/vue@3.0.1(@babel/core@7.23.0)(astro@3.2.3)(vite@4.4.11)(vue@3.3.4):
+  /@astrojs/vue@3.0.1(@babel/core@7.23.0)(astro@3.2.4)(vite@4.4.11)(vue@3.3.4):
     resolution: {integrity: sha512-qXn99sQ60zUPoHsMXGt43IySMKN5VXZz5VJlTKqkXG+CFV9DOWw0+syj/5iYKZSouH3nyNNb5a9uAkdz+X6Cew==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -265,7 +265,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.0.2(vite@4.4.11)(vue@3.3.4)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.23.0)
       '@vue/compiler-sfc': 3.3.4
-      astro: 3.2.3
+      astro: 3.2.4
       vue: 3.3.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -2033,7 +2033,7 @@ packages:
   /@types/hast@2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.0
 
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
@@ -2045,7 +2045,7 @@ packages:
   /@types/mdast@3.0.10:
     resolution: {integrity: sha512-W864tg/Osz1+9f4lrGTZpCSO5/z4608eUp19tbozkq2HJK6i3z1kT0H9tlADXuYIb1YYOBByU4Jsqkk75q48qA==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.0
 
   /@types/mdast@4.0.1:
     resolution: {integrity: sha512-IlKct1rUTJ1T81d8OHzyop15kGv9A/ff7Gz7IJgrk6jDb4Udw77pCJ+vq8oxZf4Ghpm+616+i1s/LNg/Vh7d+g==}
@@ -2058,7 +2058,7 @@ packages:
   /@types/nlcst@1.0.0:
     resolution: {integrity: sha512-3TGCfOcy8R8mMQ4CNSNOe3PG66HttvjcLzCoOpvXvDtfWOTi+uT/rxeOKm/qEwbM4SNe1O/PjdiBK2YcTjU4OQ==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.0
 
   /@types/node@18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
@@ -2648,13 +2648,13 @@ packages:
       - rollup
     dev: true
 
-  /@vite-pwa/astro@0.1.3(astro@3.2.3)(vite-plugin-pwa@0.16.5):
+  /@vite-pwa/astro@0.1.3(astro@3.2.4)(vite-plugin-pwa@0.16.5):
     resolution: {integrity: sha512-NVJ49DU+sUi9yt0TC16LQaBak8nM0hUDu8j3C277bL5SC4aYN/0fzv5uwWzSJ38XbY0NQFA9dvfIbKsPmk88eg==}
     peerDependencies:
       astro: ^1.6.0 || ^2.0.0 || ^3.0.0
       vite-plugin-pwa: '>=0.16.5 <1'
     dependencies:
-      astro: 3.2.3
+      astro: 3.2.4
       vite-plugin-pwa: 0.16.5(vite@4.4.11)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 
@@ -2983,14 +2983,14 @@ packages:
       - supports-color
     dev: true
 
-  /astro@3.2.3:
-    resolution: {integrity: sha512-1epnxQhTbfzgdmLP1yu51E8zjIOKYxZyA8hMTD4S2E+F5gMp/D81H4hekPbbq89GDxNJiHDRNZDHtS5vrU5E5w==}
+  /astro@3.2.4:
+    resolution: {integrity: sha512-e95Yz6tYG6Q2SEOCzujqCHq9/HOB2z085KP1K36kGuGtu0qaa3mmnz3R9FpKM/W5SbmrNgUv4QaP207EUkMp5Q==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.2.0
       '@astrojs/internal-helpers': 0.2.1
-      '@astrojs/markdown-remark': 3.2.1(astro@3.2.3)
+      '@astrojs/markdown-remark': 3.2.1(astro@3.2.4)
       '@astrojs/telemetry': 3.0.3
       '@babel/core': 7.23.0
       '@babel/generator': 7.23.0
@@ -3171,7 +3171,7 @@ packages:
     dependencies:
       ansi-align: 3.0.1
       camelcase: 7.0.1
-      chalk: 5.2.0
+      chalk: 5.3.0
       cli-boxes: 3.0.0
       string-width: 5.1.2
       type-fest: 2.19.0
@@ -3283,10 +3283,6 @@ packages:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
     dev: true
-
-  /chalk@5.2.0:
-    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   /chalk@5.3.0:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
@@ -6401,13 +6397,6 @@ packages:
       hast-util-raw: 7.2.3
       unified: 10.1.2
 
-  /rehype-stringify@9.0.3:
-    resolution: {integrity: sha512-kWiZ1bgyWlgOxpqD5HnxShKAdXtb2IUljn3hQAhySeak6IOQPPt6DeGnsIh4ixm7yKJWzm8TXFuC/lPfcWHJqw==}
-    dependencies:
-      '@types/hast': 2.3.4
-      hast-util-to-html: 8.0.3
-      unified: 10.1.2
-
   /rehype-stringify@9.0.4:
     resolution: {integrity: sha512-Uk5xu1YKdqobe5XpSskwPvo1XeHUUucWEQSl8hTrXt5selvca1e8K1EZ37E6YoZ4BT8BCqCdVfQW7OfHfthtVQ==}
     dependencies:
@@ -6420,7 +6409,7 @@ packages:
     dependencies:
       '@types/hast': 2.3.4
       rehype-parse: 8.0.4
-      rehype-stringify: 9.0.3
+      rehype-stringify: 9.0.4
       unified: 10.1.2
 
   /remark-gfm@3.0.1:
