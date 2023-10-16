@@ -21,7 +21,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.43.1",
     "@babel/core": "7.23.2",
-    "@typescript-eslint/parser": "6.7.5",
+    "@typescript-eslint/parser": "6.8.0",
     "@unocss/eslint-config": "0.56.5",
     "@unocss/preset-icons": "0.56.5",
     "@unocss/preset-wind": "0.56.5",
