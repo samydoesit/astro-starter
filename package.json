@@ -14,8 +14,8 @@
     "typecheck": "vue-tsc --noEmit && astro check"
   },
   "dependencies": {
-    "@astrojs/vue": "3.0.1",
-    "astro": "3.3.2",
+    "@astrojs/vue": "3.0.2",
+    "astro": "3.3.3",
     "vue": "3.3.6"
   },
   "devDependencies": {
