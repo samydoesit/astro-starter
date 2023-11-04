@@ -39,7 +39,7 @@ devDependencies:
     version: 0.57.2
   '@vite-pwa/astro':
     specifier: 0.1.4
-    version: 0.1.4(astro@3.4.3)(vite-plugin-pwa@0.16.6)
+    version: 0.1.4(astro@3.4.3)(vite-plugin-pwa@0.16.7)
   eslint:
     specifier: 8.53.0
     version: 8.53.0
@@ -62,8 +62,8 @@ devDependencies:
     specifier: 4.5.0
     version: 4.5.0
   vite-plugin-pwa:
-    specifier: 0.16.6
-    version: 0.16.6(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0)
+    specifier: 0.16.7
+    version: 0.16.7(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0)
   vue-tsc:
     specifier: ^1.8.22
     version: 1.8.22(typescript@5.2.2)
@@ -2681,14 +2681,14 @@ packages:
       - rollup
     dev: true
 
-  /@vite-pwa/astro@0.1.4(astro@3.4.3)(vite-plugin-pwa@0.16.6):
+  /@vite-pwa/astro@0.1.4(astro@3.4.3)(vite-plugin-pwa@0.16.7):
     resolution: {integrity: sha512-OmpaMmF9ogxI/YeUFNS0VDhaoPWvoVdRg0iEiQVz4oIQ+AdEjKNx7h0Xbz9p10/tA8EPX+/ugBMUT0xERMAuyQ==}
     peerDependencies:
       astro: ^1.6.0 || ^2.0.0 || ^3.0.0
       vite-plugin-pwa: '>=0.16.5 <1'
     dependencies:
       astro: 3.4.3(typescript@5.2.2)
-      vite-plugin-pwa: 0.16.6(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0)
+      vite-plugin-pwa: 0.16.7(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 
   /@vitejs/plugin-vue-jsx@3.0.2(vite@4.5.0)(vue@3.3.7):
@@ -7751,8 +7751,8 @@ packages:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  /vite-plugin-pwa@0.16.6(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0):
-    resolution: {integrity: sha512-bQPDOWvhPMwydMoWqohXvIzvrq4X8iuCF+q95qEiaM4yC0ybViGKWMnWcpWp0vcnoLk7QvxHDlK65KUZvqB3Sg==}
+  /vite-plugin-pwa@0.16.7(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0):
+    resolution: {integrity: sha512-4WMA5unuKlHs+koNoykeuCfTcqEGbiTRr8sVYUQMhc6tWxZpSRnv9Ojk4LKmqVhoPGHfBVCdGaMo8t9Qidkc1Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0 || ^5.0.0-0
