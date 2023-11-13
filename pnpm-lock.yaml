@@ -38,8 +38,8 @@ devDependencies:
     specifier: 0.57.3
     version: 0.57.3
   '@vite-pwa/astro':
-    specifier: 0.1.4
-    version: 0.1.4(astro@3.5.3)(vite-plugin-pwa@0.16.7)
+    specifier: 0.1.5
+    version: 0.1.5(astro@3.5.3)(vite-plugin-pwa@0.16.7)
   eslint:
     specifier: 8.53.0
     version: 8.53.0
@@ -2727,8 +2727,8 @@ packages:
       - rollup
     dev: true
 
-  /@vite-pwa/astro@0.1.4(astro@3.5.3)(vite-plugin-pwa@0.16.7):
-    resolution: {integrity: sha512-OmpaMmF9ogxI/YeUFNS0VDhaoPWvoVdRg0iEiQVz4oIQ+AdEjKNx7h0Xbz9p10/tA8EPX+/ugBMUT0xERMAuyQ==}
+  /@vite-pwa/astro@0.1.5(astro@3.5.3)(vite-plugin-pwa@0.16.7):
+    resolution: {integrity: sha512-OjG32P67eGGTKlXwTqhJkdOmQOL+GBNaqi9sm2JSawkY+SgZ9V6whPMRjJZXtTjpPXrQs4XorJiLG9g3kRPRTA==}
     peerDependencies:
       astro: ^1.6.0 || ^2.0.0 || ^3.0.0
       vite-plugin-pwa: '>=0.16.5 <1'
