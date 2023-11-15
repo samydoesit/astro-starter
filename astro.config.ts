@@ -7,7 +7,5 @@ import AstroPWA from '@vite-pwa/astro'
 export default defineConfig({
   integrations: [vue(), Unocss({
     injectReset: true,
-  }),
-  AstroPWA(),
-  ],
+  }), AstroPWA()],
 })

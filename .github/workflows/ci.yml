@@ -2,16 +2,16 @@ name: CI
 
 on:
   push:
-    branches: ['main']
+    branches: [main]
   pull_request:
     types: [opened, synchronize]
     paths-ignore:
-      - 'LICENSE'
+      - LICENSE
       - '.vscode/**'
-      - '.github/CODEOWNERS'
-      - '.github/FUNDING.yml'
+      - .github/CODEOWNERS
+      - .github/FUNDING.yml
       - '.github/ISSUE_TEMPLATE/**'
-      - '.gitattributes'
+      - .gitattributes
 
 jobs:
   lint:
@@ -34,7 +34,7 @@ jobs:
       - name: Install
         run: nci
         env:
-          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
 
       - name: 💪 Lint
         run: nr lint
@@ -59,7 +59,7 @@ jobs:
       - name: 📦 Install
         run: nci
         env:
-          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
 
       - name: 🔗 Typecheck
         run: nr typecheck
@@ -91,7 +91,7 @@ jobs:
       - name: Install
         run: nci
         env:
-          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
 
       - name: Build
         run: nr build

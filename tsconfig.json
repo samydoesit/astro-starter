@@ -1,16 +1,16 @@
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
-    "baseUrl": ".",
     "jsx": "preserve",
-    "types": [
-      "astro/client"
-    ],
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
       "@components/*": ["src/components/*"],
       "@styles/*": ["src/styles/*"]
     },
+    "types": [
+      "astro/client"
+    ],
     "verbatimModuleSyntax": true
   }
 }
