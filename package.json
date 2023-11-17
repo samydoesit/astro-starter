@@ -30,7 +30,7 @@
     "@unocss/preset-wind": "0.57.5",
     "@unocss/reset": "0.57.5",
     "@vite-pwa/astro": "0.1.5",
-    "eslint": "8.53.0",
+    "eslint": "8.54.0",
     "eslint-plugin-astro": "0.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "typescript": "5.2.2",
