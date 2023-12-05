@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config':
-    specifier: 2.3.2
-    version: 2.3.2(eslint@8.55.0)(typescript@5.3.2)
+    specifier: 2.3.3
+    version: 2.3.3(eslint@8.55.0)(typescript@5.3.2)
   '@unocss/eslint-config':
     specifier: 0.58.0
     version: 0.58.0(eslint@8.55.0)(typescript@5.3.2)
@@ -73,13 +73,13 @@ packages:
       '@jridgewell/gen-mapping': 0.3.2
       '@jridgewell/trace-mapping': 0.3.17
 
-  /@antfu/eslint-config@2.3.2(eslint@8.55.0)(typescript@5.3.2):
-    resolution: {integrity: sha512-h4MXU87DhA4G63vKDXFNWuucRbD9/flCTlDXr81sv7JibRh2xlYExGRNZsdCEsvDd5EGC1fPQV+b1J0BpGGWkg==}
+  /@antfu/eslint-config@2.3.3(eslint@8.55.0)(typescript@5.3.2):
+    resolution: {integrity: sha512-T7QNC4NUkX39PLXPm/2niwfXWSdMYdZFzJE0Wg0epNYbNA/YQ3LP6oo6nplE5lpISZpFv4q/zRF/9qgeUIDFHg==}
     hasBin: true
     peerDependencies:
       '@unocss/eslint-plugin': '>=0.50.0'
       eslint: '>=8.40.0'
-      eslint-plugin-format: ^0.0.1
+      eslint-plugin-format: '>=0.1.0'
       eslint-plugin-react: ^7.33.2
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-react-refresh: ^0.4.4
@@ -240,13 +240,6 @@ packages:
       - supports-color
       - vite
     dev: false
-
-  /@babel/code-frame@7.22.13:
-    resolution: {integrity: sha512-XktuhWlJ5g+3TJXc5upd9Ks1HutSArik6jf2eAjYFyIOf4ej3RN+184cZbzDvbPnuTJIUhPKKJE3cIsYTiAT3w==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/highlight': 7.23.4
-      chalk: 2.4.2
 
   /@babel/code-frame@7.23.5:
     resolution: {integrity: sha512-CgH3s1a96LipHCmSUmYFPwY7MNx8C3avkq7i4Wl3cfa662ldtUe4VM1TPXX70pfmrlWTb6jLqTYrZyT2ZTJBgA==}
@@ -1534,7 +1527,7 @@ packages:
     resolution: {integrity: sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/code-frame': 7.22.13
+      '@babel/code-frame': 7.23.5
       '@babel/parser': 7.23.5
       '@babel/types': 7.23.5
 
@@ -1542,7 +1535,7 @@ packages:
     resolution: {integrity: sha512-azpe59SQ48qG6nu2CzcMLbxUudtN+dOM9kDbUqGq3HXUJRlo7i8fvPoxQUzYgLZ4cMVmuZgm8vvBpNeRhd6XSw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/code-frame': 7.22.13
+      '@babel/code-frame': 7.23.5
       '@babel/generator': 7.23.3
       '@babel/helper-environment-visitor': 7.22.20
       '@babel/helper-function-name': 7.23.0
@@ -2242,7 +2235,7 @@ packages:
     peerDependencies:
       eslint: '*'
     dependencies:
-      '@typescript-eslint/utils': 6.13.1(eslint@8.55.0)(typescript@5.3.2)
+      '@typescript-eslint/utils': 6.13.2(eslint@8.55.0)(typescript@5.3.2)
       eslint: 8.55.0
     transitivePeerDependencies:
       - supports-color
@@ -2256,7 +2249,7 @@ packages:
       eslint: '>=8.40.0'
     dependencies:
       '@stylistic/eslint-plugin-js': 1.5.0-beta.0(eslint@8.55.0)
-      '@typescript-eslint/utils': 6.13.1(eslint@8.55.0)(typescript@5.3.2)
+      '@typescript-eslint/utils': 6.13.2(eslint@8.55.0)(typescript@5.3.2)
       eslint: 8.55.0
       graphemer: 1.4.0
     transitivePeerDependencies:
@@ -4449,7 +4442,7 @@ packages:
       vue-eslint-parser:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 6.13.1(eslint@8.55.0)(typescript@5.3.2)
+      '@typescript-eslint/utils': 6.13.2(eslint@8.55.0)(typescript@5.3.2)
       eslint: 8.55.0
       minimatch: 9.0.3
       natural-compare-lite: 1.4.0
@@ -4511,7 +4504,7 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/eslint-plugin': 6.13.2(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)(typescript@5.3.2)
-      '@typescript-eslint/utils': 6.13.1(eslint@8.55.0)(typescript@5.3.2)
+      '@typescript-eslint/utils': 6.13.2(eslint@8.55.0)(typescript@5.3.2)
       eslint: 8.55.0
     transitivePeerDependencies:
       - supports-color
