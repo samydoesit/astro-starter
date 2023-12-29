@@ -21,7 +21,7 @@
   "dependencies": {
     "@astrojs/vue": "4.0.6",
     "astro": "4.0.8",
-    "vue": "3.3.13"
+    "vue": "3.4.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.3.4",
