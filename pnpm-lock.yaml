@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@astrojs/vue':
     specifier: 4.0.8
-    version: 4.0.8(@babel/core@7.23.6)(astro@4.1.2)(vite@5.0.11)(vue@3.4.14)
+    version: 4.0.8(@babel/core@7.23.6)(astro@4.1.3)(vite@5.0.11)(vue@3.4.14)
   astro:
-    specifier: 4.1.2
-    version: 4.1.2(typescript@5.3.3)
+    specifier: 4.1.3
+    version: 4.1.3(typescript@5.3.3)
   vue:
     specifier: 3.4.14
     version: 3.4.14(typescript@5.3.3)
@@ -33,7 +33,7 @@ devDependencies:
     version: 0.58.3
   '@vite-pwa/astro':
     specifier: 0.2.0
-    version: 0.2.0(astro@4.1.2)(vite-plugin-pwa@0.17.4)
+    version: 0.2.0(astro@4.1.3)(vite-plugin-pwa@0.17.4)
   eslint:
     specifier: 8.55.0
     version: 8.55.0
@@ -48,7 +48,7 @@ devDependencies:
     version: 5.3.3
   unocss:
     specifier: 0.58.3
-    version: 0.58.3(postcss@8.4.32)(rollup@2.79.1)(vite@5.0.11)
+    version: 0.58.3(postcss@8.4.33)(rollup@2.79.1)(vite@5.0.11)
   vite:
     specifier: 5.0.11
     version: 5.0.11
@@ -219,7 +219,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/vue@4.0.8(@babel/core@7.23.6)(astro@4.1.2)(vite@5.0.11)(vue@3.4.14):
+  /@astrojs/vue@4.0.8(@babel/core@7.23.6)(astro@4.1.3)(vite@5.0.11)(vue@3.4.14):
     resolution: {integrity: sha512-RnNA4wFy4HvQxU4vswH3c6sa7Br1F/JVzWdQvHYLP4CEe5OZ6yhEqxAUUo3LDkF+sNn23XznFLOPqZak6ziBwg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -230,7 +230,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@5.0.11)(vue@3.4.14)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.23.6)
       '@vue/compiler-sfc': 3.4.5
-      astro: 4.1.2(typescript@5.3.3)
+      astro: 4.1.3(typescript@5.3.3)
       vue: 3.4.14(typescript@5.3.3)
     transitivePeerDependencies:
       - '@babel/core'
@@ -2368,7 +2368,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/postcss@0.58.3(postcss@8.4.32):
+  /@unocss/postcss@0.58.3(postcss@8.4.33):
     resolution: {integrity: sha512-y1WQNvLUidypCu/tr6oJfaV4pjd8Lsk1N27ASEVsvockOH3MekRYpHtJfTl2fMk+1Y98AHv7hPAVjM2NlvhDow==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -2380,7 +2380,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.5
-      postcss: 8.4.32
+      postcss: 8.4.33
     dev: true
 
   /@unocss/preset-attributify@0.58.3:
@@ -2517,13 +2517,13 @@ packages:
       - rollup
     dev: true
 
-  /@vite-pwa/astro@0.2.0(astro@4.1.2)(vite-plugin-pwa@0.17.4):
+  /@vite-pwa/astro@0.2.0(astro@4.1.3)(vite-plugin-pwa@0.17.4):
     resolution: {integrity: sha512-1MBNbRo9I9fp9sUSoaQfI/xHVDRKRoUsWETDJMVoKoctZYfm4fZgb7EN76WJdejW/vup+3+uoFlDMCnca+vZzA==}
     peerDependencies:
       astro: ^1.6.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
       vite-plugin-pwa: '>=0.17.3 <1'
     dependencies:
-      astro: 4.1.2(typescript@5.3.3)
+      astro: 4.1.3(typescript@5.3.3)
       vite-plugin-pwa: 0.17.4(vite@5.0.11)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 
@@ -2917,8 +2917,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro@4.1.2(typescript@5.3.3):
-    resolution: {integrity: sha512-C/CrsIjRnRZYsLIBquAoTKj3ZPyGPVRByEcPMs6CrJLiHmcYnjpRMVd7oBFepU6772U1ZcXLy0zdxoRYjHFf5w==}
+  /astro@4.1.3(typescript@5.3.3):
+    resolution: {integrity: sha512-9i8l0mEnpAOAi9F3DMkHGaZ4q56TGtt71XaAxhPXAlhZrVR/6ruobCyYdYwL1Fo0ATpuGXdaod1I7FFxFMcQbw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -6193,7 +6193,6 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
-    dev: false
 
   /prebuild-install@7.1.1:
     resolution: {integrity: sha512-jAXscXWMcCK8GgCoHOfIr0ODh5ai8mj63L2nWrjuAgXE6tDyYGnx4/8o/rCgU+B4JSyZBKbeZqzhtwtC3ovxjw==}
@@ -7368,7 +7367,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.58.3(postcss@8.4.32)(rollup@2.79.1)(vite@5.0.11):
+  /unocss@0.58.3(postcss@8.4.33)(rollup@2.79.1)(vite@5.0.11):
     resolution: {integrity: sha512-2rnvghfiIDRQ2cOrmN4P7J7xV2p3yBK+bPAt1aoUxCXcszkLczAnQzh9c7IZ+p70kSVstK45cJTYV6TMzOLF7Q==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -7384,7 +7383,7 @@ packages:
       '@unocss/cli': 0.58.3(rollup@2.79.1)
       '@unocss/core': 0.58.3
       '@unocss/extractor-arbitrary-variants': 0.58.3
-      '@unocss/postcss': 0.58.3(postcss@8.4.32)
+      '@unocss/postcss': 0.58.3(postcss@8.4.33)
       '@unocss/preset-attributify': 0.58.3
       '@unocss/preset-icons': 0.58.3
       '@unocss/preset-mini': 0.58.3
