@@ -24,14 +24,14 @@
     "vue": "3.4.14"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.3.4",
+    "@antfu/eslint-config": "2.6.3",
     "@unocss/eslint-config": "0.58.3",
     "@unocss/preset-icons": "0.58.3",
     "@unocss/preset-wind": "0.58.3",
     "@unocss/reset": "0.58.3",
     "@vite-pwa/astro": "0.2.0",
-    "eslint": "8.55.0",
-    "eslint-plugin-astro": "0.30.0",
+    "eslint": "8.56.0",
+    "eslint-plugin-astro": "0.31.3",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "typescript": "5.3.3",
     "unocss": "0.58.3",
