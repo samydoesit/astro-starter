@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@astrojs/vue':
     specifier: 4.0.8
-    version: 4.0.8(@babel/core@7.23.9)(astro@4.5.2)(vite@5.1.6)(vue@3.4.21)
+    version: 4.0.8(@babel/core@7.23.9)(astro@4.5.3)(vite@5.1.6)(vue@3.4.21)
   astro:
-    specifier: 4.5.2
-    version: 4.5.2(typescript@5.4.2)
+    specifier: 4.5.3
+    version: 4.5.3(typescript@5.4.2)
   vue:
     specifier: 3.4.21
     version: 3.4.21(typescript@5.4.2)
@@ -33,7 +33,7 @@ devDependencies:
     version: 0.58.5
   '@vite-pwa/astro':
     specifier: 0.3.0
-    version: 0.3.0(astro@4.5.2)(vite-plugin-pwa@0.19.2)
+    version: 0.3.0(astro@4.5.3)(vite-plugin-pwa@0.19.2)
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -249,7 +249,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/vue@4.0.8(@babel/core@7.23.9)(astro@4.5.2)(vite@5.1.6)(vue@3.4.21):
+  /@astrojs/vue@4.0.8(@babel/core@7.23.9)(astro@4.5.3)(vite@5.1.6)(vue@3.4.21):
     resolution: {integrity: sha512-RnNA4wFy4HvQxU4vswH3c6sa7Br1F/JVzWdQvHYLP4CEe5OZ6yhEqxAUUo3LDkF+sNn23XznFLOPqZak6ziBwg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -260,7 +260,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@5.1.6)(vue@3.4.21)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.23.9)
       '@vue/compiler-sfc': 3.4.5
-      astro: 4.5.2(typescript@5.4.2)
+      astro: 4.5.3(typescript@5.4.2)
       vue: 3.4.21(typescript@5.4.2)
     transitivePeerDependencies:
       - '@babel/core'
@@ -2687,7 +2687,7 @@ packages:
       - rollup
     dev: true
 
-  /@vite-pwa/astro@0.3.0(astro@4.5.2)(vite-plugin-pwa@0.19.2):
+  /@vite-pwa/astro@0.3.0(astro@4.5.3)(vite-plugin-pwa@0.19.2):
     resolution: {integrity: sha512-2fH9ifzMW8dmeydJ6SuttLR5FCDvSoaTpyxblasR6icsJbR1he4igJhauw4jvmQXOb99Psl+bsBSoUwsdSnSJA==}
     peerDependencies:
       '@vite-pwa/assets-generator': ^0.2.4
@@ -2697,7 +2697,7 @@ packages:
       '@vite-pwa/assets-generator':
         optional: true
     dependencies:
-      astro: 4.5.2(typescript@5.4.2)
+      astro: 4.5.3(typescript@5.4.2)
       vite-plugin-pwa: 0.19.2(vite@5.1.6)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 
@@ -3064,8 +3064,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro@4.5.2(typescript@5.4.2):
-    resolution: {integrity: sha512-Nq3GojlwXJ3XD047khraCWu/6aqGFfcyq7Q0blpTBSZnCz2s4Zri04PHvUkbKF7TK2UljkFuTXKP0CE4ZuJi9Q==}
+  /astro@4.5.3(typescript@5.4.2):
+    resolution: {integrity: sha512-MEiLeAr3+THeadTZCQ4U+DI9VTTUZdYrPEPedSKmQwqnkiPkLjpLgx4yOcyH7Yp4t57+SWiC6W0rt7lPGM36Fg==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -3079,7 +3079,6 @@ packages:
       '@babel/plugin-transform-react-jsx': 7.22.5(@babel/core@7.23.9)
       '@babel/traverse': 7.23.9
       '@babel/types': 7.23.9
-      '@shikijs/core': 1.1.7
       '@types/babel__core': 7.20.5
       acorn: 8.11.3
       aria-query: 5.3.0
@@ -3110,7 +3109,6 @@ packages:
       js-yaml: 4.1.0
       kleur: 4.1.5
       magic-string: 0.30.7
-      mdast-util-to-hast: 13.0.2
       mime: 3.0.0
       ora: 7.0.1
       p-limit: 5.0.0
