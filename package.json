@@ -36,7 +36,7 @@
     "typescript": "5.4.2",
     "unocss": "0.58.5",
     "vite": "5.1.6",
-    "vite-plugin-pwa": "0.19.2",
+    "vite-plugin-pwa": "0.19.3",
     "vue-tsc": "^2.0.6"
   }
 }
