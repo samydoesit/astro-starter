@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@astrojs/vue':
     specifier: 4.0.10
-    version: 4.0.10(@babel/core@7.24.3)(astro@4.5.13)(vite@5.2.7)(vue@3.4.21)
+    version: 4.0.10(@babel/core@7.24.3)(astro@4.5.14)(vite@5.2.7)(vue@3.4.21)
   astro:
-    specifier: 4.5.13
-    version: 4.5.13(typescript@5.4.3)
+    specifier: 4.5.14
+    version: 4.5.14(typescript@5.4.3)
   vue:
     specifier: 3.4.21
     version: 3.4.21(typescript@5.4.3)
@@ -33,7 +33,7 @@ devDependencies:
     version: 0.58.9
   '@vite-pwa/astro':
     specifier: 0.3.1
-    version: 0.3.1(astro@4.5.13)(vite-plugin-pwa@0.19.7)
+    version: 0.3.1(astro@4.5.14)(vite-plugin-pwa@0.19.7)
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -185,10 +185,6 @@ packages:
       leven: 3.1.0
     dev: true
 
-  /@astrojs/compiler@2.7.0:
-    resolution: {integrity: sha512-XpC8MAaWjD1ff6/IfkRq/5k1EFj6zhCNqXRd5J43SVJEBj/Bsmizkm8N0xOYscGcDFQkRgEw6/eKnI5x/1l6aA==}
-    dev: true
-
   /@astrojs/compiler@2.7.1:
     resolution: {integrity: sha512-/POejAYuj8WEw7ZI0J8JBvevjfp9jQ9Wmu/Bg52RiNwGXkMV7JnYpsenVfHvvf1G7R5sXHGKlTcxlQWhoUTiGQ==}
 
@@ -239,7 +235,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/vue@4.0.10(@babel/core@7.24.3)(astro@4.5.13)(vite@5.2.7)(vue@3.4.21):
+  /@astrojs/vue@4.0.10(@babel/core@7.24.3)(astro@4.5.14)(vite@5.2.7)(vue@3.4.21):
     resolution: {integrity: sha512-RIGqy3d4XFme2O8/6gPmJ9eRr++e7XkVYRV+liTFQmyCsVpXq36EX9MjJs0TZ87z3SpTQSlqH76BjLU/wvx3UA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -250,7 +246,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@5.2.7)(vue@3.4.21)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.24.3)
       '@vue/compiler-sfc': 3.4.21
-      astro: 4.5.13(typescript@5.4.3)
+      astro: 4.5.14(typescript@5.4.3)
       vue: 3.4.21(typescript@5.4.3)
     transitivePeerDependencies:
       - '@babel/core'
@@ -513,13 +509,6 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
       picocolors: 1.0.0
-
-  /@babel/parser@7.24.0:
-    resolution: {integrity: sha512-QuP/FxEAzMSjXygs8v4N9dvdXzEHN4W1oF3PxuWAtPo08UdM17u89RDMgjLn/mlc56iM0HlLmVkO/wgR+rDgHg==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.24.0
 
   /@babel/parser@7.24.1:
     resolution: {integrity: sha512-Zo9c7N3xdOIQrNip7Lc9wvRPzlRtovHVE4lkz8WEDr7uYh/GMQhSiIgFxGIArRHYdJE5kxtZjAf8rT0xhdLCzg==}
@@ -2809,7 +2798,7 @@ packages:
       - rollup
     dev: true
 
-  /@vite-pwa/astro@0.3.1(astro@4.5.13)(vite-plugin-pwa@0.19.7):
+  /@vite-pwa/astro@0.3.1(astro@4.5.14)(vite-plugin-pwa@0.19.7):
     resolution: {integrity: sha512-rSzbYnNZU4L4QBzwO7HTDy06WbWnQ/PPOd0rzVTlOxYz/PPzbXXgnOvMY/4yNRCq7Lhc68sq2fRQ2JEAynmESw==}
     peerDependencies:
       '@vite-pwa/assets-generator': ^0.2.4
@@ -2819,7 +2808,7 @@ packages:
       '@vite-pwa/assets-generator':
         optional: true
     dependencies:
-      astro: 4.5.13(typescript@5.4.3)
+      astro: 4.5.14(typescript@5.4.3)
       vite-plugin-pwa: 0.19.7(vite@5.2.7)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 
@@ -2895,7 +2884,7 @@ packages:
   /@vue/compiler-core@3.4.21:
     resolution: {integrity: sha512-MjXawxZf2SbZszLPYxaFCjxfibYrzr3eYbKxwpLR9EQN+oaziSu3qKVbwBERj1IFIB8OLUewxB5m/BFzi613og==}
     dependencies:
-      '@babel/parser': 7.24.0
+      '@babel/parser': 7.24.1
       '@vue/shared': 3.4.21
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -3131,10 +3120,10 @@ packages:
     resolution: {integrity: sha512-CGaBseNtunAV2DCpwBXqTKq8+9Tw65XZetMaC0FsMoZuLj0gxNIkbCf2QyKYScVrNOU7/ayfNdVw8ZCSHBiqCg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
-      '@astrojs/compiler': 2.7.0
+      '@astrojs/compiler': 2.7.1
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
-      astrojs-compiler-sync: 0.3.2(@astrojs/compiler@2.7.0)
+      astrojs-compiler-sync: 0.3.2(@astrojs/compiler@2.7.1)
       debug: 4.3.4
       entities: 4.5.0
       eslint-visitor-keys: 3.4.3
@@ -3144,8 +3133,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro@4.5.13(typescript@5.4.3):
-    resolution: {integrity: sha512-vbkiPH0J8dp5OlsvQpW3PcuV36U4vGRcdcL/LxXDwmeVjzVo6DH3Fkv+DAU5UDs7ciYodadomOo4+VZKvi8ylw==}
+  /astro@4.5.14(typescript@5.4.3):
+    resolution: {integrity: sha512-OXQ9Wbcn5e2eEPrNKJjGXeCWnKamNGyvSwORL0B8BB1fp3OO/EYo/RfeQGTR9kxGNxEpokoPZL9JNgFHoVK+wA==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -3224,13 +3213,13 @@ packages:
       - terser
       - typescript
 
-  /astrojs-compiler-sync@0.3.2(@astrojs/compiler@2.7.0):
+  /astrojs-compiler-sync@0.3.2(@astrojs/compiler@2.7.1):
     resolution: {integrity: sha512-q/8Z30WNpsktLKS5NdT/6QAF9Q/C4ucLldqUpHgvRhuj/6jkJyOQfapQxkTKp8MK4RjH9sSsClfrTIdk8JZlKw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@astrojs/compiler': '>=0.27.0'
     dependencies:
-      '@astrojs/compiler': 2.7.0
+      '@astrojs/compiler': 2.7.1
       synckit: 0.8.8
     dev: true
 
