@@ -33,7 +33,7 @@
     "eslint": "8.57.0",
     "eslint-plugin-astro": "0.33.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
-    "typescript": "5.4.3",
+    "typescript": "5.4.4",
     "unocss": "0.58.9",
     "vite": "5.2.8",
     "vite-plugin-pwa": "0.19.7",
