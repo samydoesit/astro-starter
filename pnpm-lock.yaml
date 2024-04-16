@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@astrojs/vue':
     specifier: 4.1.0
-    version: 4.1.0(astro@4.6.1)(vite@5.2.8)(vue@3.4.22)
+    version: 4.1.0(astro@4.6.1)(vite@5.2.9)(vue@3.4.22)
   astro:
     specifier: 4.6.1
     version: 4.6.1(typescript@5.4.5)
@@ -48,13 +48,13 @@ devDependencies:
     version: 5.4.5
   unocss:
     specifier: 0.59.3
-    version: 0.59.3(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.8)
+    version: 0.59.3(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.9)
   vite:
-    specifier: 5.2.8
-    version: 5.2.8
+    specifier: 5.2.9
+    version: 5.2.9
   vite-plugin-pwa:
     specifier: 0.19.8
-    version: 0.19.8(vite@5.2.8)(workbox-build@7.0.0)(workbox-window@7.0.0)
+    version: 0.19.8(vite@5.2.9)(workbox-build@7.0.0)(workbox-window@7.0.0)
   vue-tsc:
     specifier: ^2.0.13
     version: 2.0.13(typescript@5.4.5)
@@ -238,15 +238,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/vue@4.1.0(astro@4.6.1)(vite@5.2.8)(vue@3.4.22):
+  /@astrojs/vue@4.1.0(astro@4.6.1)(vite@5.2.9)(vue@3.4.22):
     resolution: {integrity: sha512-hd+37sK24roevRUKTHvRDvYnRpjZvqWvaGsuZSENYVIEixUcgt30+j4s711ZtiKRFldsLTvOQ79NUt3fp0oV1Q==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       astro: ^4.0.0
       vue: ^3.2.30
     dependencies:
-      '@vitejs/plugin-vue': 5.0.4(vite@5.2.8)(vue@3.4.22)
-      '@vitejs/plugin-vue-jsx': 3.1.0(vite@5.2.8)(vue@3.4.22)
+      '@vitejs/plugin-vue': 5.0.4(vite@5.2.9)(vue@3.4.22)
+      '@vitejs/plugin-vue-jsx': 3.1.0(vite@5.2.9)(vue@3.4.22)
       '@vue/compiler-sfc': 3.4.21
       astro: 4.6.1(typescript@5.4.5)
       vue: 3.4.22(typescript@5.4.5)
@@ -2530,7 +2530,7 @@ packages:
   /@ungap/structured-clone@1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  /@unocss/astro@0.59.3(rollup@2.79.1)(vite@5.2.8):
+  /@unocss/astro@0.59.3(rollup@2.79.1)(vite@5.2.9):
     resolution: {integrity: sha512-Q0eL9LLWTORWQYZYz4aoiT0SQhXqrCYJKK6+Z++d5ugsnVsRP2O/ovxf+0CueMHe6volW0O2EhgUt0yT20FdAA==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
@@ -2540,8 +2540,8 @@ packages:
     dependencies:
       '@unocss/core': 0.59.3
       '@unocss/reset': 0.59.3
-      '@unocss/vite': 0.59.3(rollup@2.79.1)(vite@5.2.8)
-      vite: 5.2.8
+      '@unocss/vite': 0.59.3(rollup@2.79.1)(vite@5.2.9)
+      vite: 5.2.9
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2750,7 +2750,7 @@ packages:
       '@unocss/core': 0.59.3
     dev: true
 
-  /@unocss/vite@0.59.3(rollup@2.79.1)(vite@5.2.8):
+  /@unocss/vite@0.59.3(rollup@2.79.1)(vite@5.2.9):
     resolution: {integrity: sha512-+K4kSEt3BvJfYlc8Tg3nmF53i14+OUTIasnzwUQF4JCF+B47jd47IVbNBm2izhTA5OrmZ+1xXBjHR7cXgDjDhg==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
@@ -2765,7 +2765,7 @@ packages:
       chokidar: 3.6.0
       fast-glob: 3.3.2
       magic-string: 0.30.9
-      vite: 5.2.8
+      vite: 5.2.9
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2781,10 +2781,10 @@ packages:
         optional: true
     dependencies:
       astro: 4.6.1(typescript@5.4.5)
-      vite-plugin-pwa: 0.19.8(vite@5.2.8)(workbox-build@7.0.0)(workbox-window@7.0.0)
+      vite-plugin-pwa: 0.19.8(vite@5.2.9)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 
-  /@vitejs/plugin-vue-jsx@3.1.0(vite@5.2.8)(vue@3.4.22):
+  /@vitejs/plugin-vue-jsx@3.1.0(vite@5.2.9)(vue@3.4.22):
     resolution: {integrity: sha512-w9M6F3LSEU5kszVb9An2/MmXNxocAnUb3WhRr8bHlimhDrXNt6n6D2nJQR3UXpGlZHh/EsgouOHCsM8V3Ln+WA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2794,20 +2794,20 @@ packages:
       '@babel/core': 7.24.4
       '@babel/plugin-transform-typescript': 7.24.1(@babel/core@7.24.4)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.24.4)
-      vite: 5.2.8
+      vite: 5.2.9
       vue: 3.4.22(typescript@5.4.5)
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@vitejs/plugin-vue@5.0.4(vite@5.2.8)(vue@3.4.22):
+  /@vitejs/plugin-vue@5.0.4(vite@5.2.9)(vue@3.4.22):
     resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.2.8
+      vite: 5.2.9
       vue: 3.4.22(typescript@5.4.5)
     dev: false
 
@@ -3209,8 +3209,8 @@ packages:
       tsconfck: 3.0.0(typescript@5.4.5)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.2.8
-      vitefu: 0.2.5(vite@5.2.8)
+      vite: 5.2.9
+      vitefu: 0.2.5(vite@5.2.9)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -7712,7 +7712,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.59.3(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.8):
+  /unocss@0.59.3(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.9):
     resolution: {integrity: sha512-4Sos0FjDX5Ck/cV1wrTase0r2V/LI/bIncguisIGq9v7/akghsGEqU8LlxZNqoCug/vpcQICmzt/zclJVUT+GQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -7724,7 +7724,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      '@unocss/astro': 0.59.3(rollup@2.79.1)(vite@5.2.8)
+      '@unocss/astro': 0.59.3(rollup@2.79.1)(vite@5.2.9)
       '@unocss/cli': 0.59.3(rollup@2.79.1)
       '@unocss/core': 0.59.3
       '@unocss/extractor-arbitrary-variants': 0.59.3
@@ -7743,8 +7743,8 @@ packages:
       '@unocss/transformer-compile-class': 0.59.3
       '@unocss/transformer-directives': 0.59.3
       '@unocss/transformer-variant-group': 0.59.3
-      '@unocss/vite': 0.59.3(rollup@2.79.1)(vite@5.2.8)
-      vite: 5.2.8
+      '@unocss/vite': 0.59.3(rollup@2.79.1)(vite@5.2.9)
+      vite: 5.2.9
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -7815,7 +7815,7 @@ packages:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  /vite-plugin-pwa@0.19.8(vite@5.2.8)(workbox-build@7.0.0)(workbox-window@7.0.0):
+  /vite-plugin-pwa@0.19.8(vite@5.2.9)(workbox-build@7.0.0)(workbox-window@7.0.0):
     resolution: {integrity: sha512-e1oK0dfhzhDhY3VBuML6c0h8Xfx6EkOVYqolj7g+u8eRfdauZe5RLteCIA/c5gH0CBQ0CNFAuv/AFTx4Z7IXTw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -7830,15 +7830,15 @@ packages:
       debug: 4.3.4
       fast-glob: 3.3.2
       pretty-bytes: 6.1.1
-      vite: 5.2.8
+      vite: 5.2.9
       workbox-build: 7.0.0
       workbox-window: 7.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.2.8:
-    resolution: {integrity: sha512-OyZR+c1CE8yeHw5V5t59aXsUPPVTHMDjEZz8MgguLL/Q7NblxhZUlTu9xSPqlsUO/y+X7dlU05jdhvyycD55DA==}
+  /vite@5.2.9:
+    resolution: {integrity: sha512-uOQWfuZBlc6Y3W/DTuQ1Sr+oIXWvqljLvS881SVmAj00d5RdgShLcuXWxseWPd4HXwiYBFW/vXHfKFeqj9uQnw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -7871,7 +7871,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitefu@0.2.5(vite@5.2.8):
+  /vitefu@0.2.5(vite@5.2.9):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -7879,7 +7879,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.2.8
+      vite: 5.2.9
 
   /vue-eslint-parser@9.4.2(eslint@8.57.0):
     resolution: {integrity: sha512-Ry9oiGmCAK91HrKMtCrKFWmSFWvYkpGglCeFAIqDdr9zdXmMMpJOmUJS7WWsW7fX81h6mwHmUZCQQ1E0PkSwYQ==}
