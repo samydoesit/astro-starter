@@ -21,7 +21,7 @@
   "dependencies": {
     "@astrojs/vue": "4.5.0",
     "astro": "4.11.0",
-    "vue": "3.4.29"
+    "vue": "3.4.30"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.21.1",
@@ -37,6 +37,6 @@
     "unocss": "0.61.0",
     "vite": "5.3.1",
     "vite-plugin-pwa": "0.20.0",
-    "vue-tsc": "^2.0.21"
+    "vue-tsc": "^2.0.22"
   }
 }
