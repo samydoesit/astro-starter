@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/vue':
         specifier: 4.5.0
-        version: 4.5.0(astro@4.13.2(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
+        version: 4.5.0(astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
       astro:
-        specifier: 4.13.2
-        version: 4.13.2(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
+        specifier: 4.13.3
+        version: 4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
       vue:
         specifier: 3.4.37
         version: 3.4.37(typescript@5.5.4)
@@ -35,7 +35,7 @@ importers:
         version: 0.61.9
       '@vite-pwa/astro':
         specifier: 0.4.0
-        version: 0.4.0(astro@4.13.2(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
+        version: 0.4.0(astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
       eslint:
         specifier: 9.9.0
         version: 9.9.0
@@ -1838,8 +1838,8 @@ packages:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro@4.13.2:
-    resolution: {integrity: sha512-bdfUV6zfOWOV/IbROqVx+1cuAFXY0PZpVxr4JO9YxCKa5AfQRR8RKXJ2k8QUjalA6dmxQ9FgAQw3FRrzHVOGEQ==}
+  astro@4.13.3:
+    resolution: {integrity: sha512-MyhmM0v5sphiVwxAm5jjKxWeuPZijWPJ8Ajdign9QzEmLWSH8vUYIJWx/dWRQ6vF1I0jXrksoj3wtw5nzXt9nw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4837,12 +4837,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@4.5.0(astro@4.13.2(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))':
+  '@astrojs/vue@4.5.0(astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))':
     dependencies:
       '@vitejs/plugin-vue': 5.0.5(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
       '@vitejs/plugin-vue-jsx': 4.0.0(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
       '@vue/compiler-sfc': 3.4.29
-      astro: 4.13.2(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
+      astro: 4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
       vite-plugin-vue-devtools: 7.3.0(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
       vue: 3.4.37(typescript@5.5.4)
     transitivePeerDependencies:
@@ -6595,9 +6595,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vite-pwa/astro@0.4.0(astro@4.13.2(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
+  '@vite-pwa/astro@0.4.0(astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
     dependencies:
-      astro: 4.13.2(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
+      astro: 4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
       vite-plugin-pwa: 0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
 
   '@vitejs/plugin-vue-jsx@4.0.0(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))':
@@ -6988,7 +6988,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@4.13.2(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4):
+  astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4):
     dependencies:
       '@astrojs/compiler': 2.10.2
       '@astrojs/internal-helpers': 0.4.1
