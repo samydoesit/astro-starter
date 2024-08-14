@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/vue':
         specifier: 4.5.0
-        version: 4.5.0(astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
+        version: 4.5.0(astro@4.13.4(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
       astro:
-        specifier: 4.13.3
-        version: 4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
+        specifier: 4.13.4
+        version: 4.13.4(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
       vue:
         specifier: 3.4.37
         version: 3.4.37(typescript@5.5.4)
@@ -35,7 +35,7 @@ importers:
         version: 0.62.1
       '@vite-pwa/astro':
         specifier: 0.4.0
-        version: 0.4.0(astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
+        version: 0.4.0(astro@4.13.4(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
       eslint:
         specifier: 9.9.0
         version: 9.9.0(jiti@1.21.6)
@@ -131,9 +131,6 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       ajv: '>=8'
-
-  '@astrojs/compiler@2.10.0':
-    resolution: {integrity: sha512-V8ym+4kYCKmMeSdfDvm/SrlmUlKLkKzfWV3cKyiStEKW/D+YsXaQiBZcSCtuKXq8aQhsDw9HtCTZilhEMBX+BA==}
 
   '@astrojs/compiler@2.10.2':
     resolution: {integrity: sha512-bvH+v8AirwpRWCkYJEyWYdc5Cs/BjG2ZTxIJzttHilXgfKJAdW2496KsUQKzf5j2tOHtaHXKKn9hb9WZiBGpEg==}
@@ -1152,6 +1149,9 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
+  '@oslojs/encoding@0.4.1':
+    resolution: {integrity: sha512-hkjo6MuIK/kQR5CrGNdAPZhS01ZCXuWDRJ187zh6qqF2+yMHZpD9fAYpX8q2bOO6Ryhl3XpCT6kUX76N8hhm4Q==}
+
   '@pkgr/core@0.1.0':
     resolution: {integrity: sha512-Zwq5OCzuwJC2jwqmpEQt7Ds1DTi6BWSwoGkbb1n9pO3hzb35BoJELx7c0T23iDkBGkh2e7tvOtjF3tr3OaQHDQ==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
@@ -1848,8 +1848,8 @@ packages:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro@4.13.3:
-    resolution: {integrity: sha512-MyhmM0v5sphiVwxAm5jjKxWeuPZijWPJ8Ajdign9QzEmLWSH8vUYIJWx/dWRQ6vF1I0jXrksoj3wtw5nzXt9nw==}
+  astro@4.13.4:
+    resolution: {integrity: sha512-uoW961qyU5xxCiUzITVX8wYmdWbSH1zeog9UomoWC5uNpnIbH6WxOPv/qYu2m7W4r2PCxdRqfVXoYjZhFyGfTA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4798,8 +4798,6 @@ snapshots:
       jsonpointer: 5.0.1
       leven: 3.1.0
 
-  '@astrojs/compiler@2.10.0': {}
-
   '@astrojs/compiler@2.10.2': {}
 
   '@astrojs/internal-helpers@0.4.1': {}
@@ -4843,12 +4841,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@4.5.0(astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))':
+  '@astrojs/vue@4.5.0(astro@4.13.4(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))':
     dependencies:
       '@vitejs/plugin-vue': 5.0.5(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
       '@vitejs/plugin-vue-jsx': 4.0.0(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
       '@vue/compiler-sfc': 3.4.29
-      astro: 4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
+      astro: 4.13.4(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
       vite-plugin-vue-devtools: 7.3.0(rollup@2.79.1)(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))
       vue: 3.4.37(typescript@5.5.4)
     transitivePeerDependencies:
@@ -6018,6 +6016,8 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
+  '@oslojs/encoding@0.4.1': {}
+
   '@pkgr/core@0.1.0': {}
 
   '@polka/url@1.0.0-next.24': {}
@@ -6596,9 +6596,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vite-pwa/astro@0.4.0(astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
+  '@vite-pwa/astro@0.4.0(astro@4.13.4(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
     dependencies:
-      astro: 4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
+      astro: 4.13.4(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4)
       vite-plugin-pwa: 0.20.1(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
 
   '@vitejs/plugin-vue-jsx@4.0.0(vite@5.4.0(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.37(typescript@5.5.4))':
@@ -6980,11 +6980,11 @@ snapshots:
 
   astro-eslint-parser@0.17.0(typescript@5.5.4):
     dependencies:
-      '@astrojs/compiler': 2.10.0
+      '@astrojs/compiler': 2.10.2
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.4)
-      astrojs-compiler-sync: 0.3.2(@astrojs/compiler@2.10.0)
+      astrojs-compiler-sync: 0.3.2(@astrojs/compiler@2.10.2)
       debug: 4.3.6
       entities: 4.5.0
       eslint-visitor-keys: 3.4.3
@@ -6996,7 +6996,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@4.13.3(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4):
+  astro@4.13.4(@types/node@18.11.18)(terser@5.16.1)(typescript@5.5.4):
     dependencies:
       '@astrojs/compiler': 2.10.2
       '@astrojs/internal-helpers': 0.4.1
@@ -7008,6 +7008,7 @@ snapshots:
       '@babel/plugin-transform-react-jsx': 7.25.2(@babel/core@7.25.2)
       '@babel/traverse': 7.25.3
       '@babel/types': 7.25.2
+      '@oslojs/encoding': 0.4.1
       '@types/babel__core': 7.20.5
       '@types/cookie': 0.6.0
       acorn: 8.12.1
@@ -7073,9 +7074,9 @@ snapshots:
       - terser
       - typescript
 
-  astrojs-compiler-sync@0.3.2(@astrojs/compiler@2.10.0):
+  astrojs-compiler-sync@0.3.2(@astrojs/compiler@2.10.2):
     dependencies:
-      '@astrojs/compiler': 2.10.0
+      '@astrojs/compiler': 2.10.2
       synckit: 0.8.8
 
   async@3.2.4: {}
