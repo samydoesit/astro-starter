@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/vue':
         specifier: 4.5.0
-        version: 4.5.0(astro@4.14.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
+        version: 4.5.0(astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
       astro:
-        specifier: 4.14.2
-        version: 4.14.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
+        specifier: 4.14.3
+        version: 4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
       vue:
         specifier: 3.4.38
         version: 3.4.38(typescript@5.5.4)
@@ -35,7 +35,7 @@ importers:
         version: 0.62.2
       '@vite-pwa/astro':
         specifier: 0.4.0
-        version: 0.4.0(astro@4.14.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
+        version: 0.4.0(astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
       eslint:
         specifier: 9.9.0
         version: 9.9.0(jiti@1.21.6)
@@ -134,6 +134,9 @@ packages:
 
   '@astrojs/compiler@2.10.2':
     resolution: {integrity: sha512-bvH+v8AirwpRWCkYJEyWYdc5Cs/BjG2ZTxIJzttHilXgfKJAdW2496KsUQKzf5j2tOHtaHXKKn9hb9WZiBGpEg==}
+
+  '@astrojs/compiler@2.10.3':
+    resolution: {integrity: sha512-bL/O7YBxsFt55YHU021oL+xz+B/9HvGNId3F9xURN16aeqDK9juHGktdkCSXz+U4nqFACq6ZFvWomOzhV+zfPw==}
 
   '@astrojs/internal-helpers@0.4.1':
     resolution: {integrity: sha512-bMf9jFihO8YP940uD70SI/RDzIhUHJAolWVcO1v5PUivxGKvfLZTLTVVxEYzGYyPsA3ivdLNqMnL5VgmQySa+g==}
@@ -1282,8 +1285,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shikijs/core@1.12.1':
-    resolution: {integrity: sha512-biCz/mnkMktImI6hMfMX3H9kOeqsInxWEyCHbSlL8C/2TR1FqfmGxTLRNwYCKsyCyxWLbB8rEqXRVZuyxuLFmA==}
+  '@shikijs/core@1.14.1':
+    resolution: {integrity: sha512-KyHIIpKNaT20FtFPFjCQB5WVSTpLR/n+jQXhWHWVUMm9MaOaG9BGOG0MSyt7yA4+Lm+4c9rTc03tt3nYzeYSfw==}
 
   '@stylistic/eslint-plugin-js@2.6.4':
     resolution: {integrity: sha512-kx1hS3xTvzxZLdr/DCU/dLBE++vcP97sHeEFX2QXhk1Ipa4K1rzPOLw1HCbf4mU3s+7kHP5eYpDe+QteEOFLug==}
@@ -1847,8 +1850,8 @@ packages:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro@4.14.2:
-    resolution: {integrity: sha512-x9VeYx8Ih6kYKBMVwwsfRzsZVq30+SUhiawnYQ6+46qQnEx3zH05KcH24HsJMe6dVpHD8HdH7CWR5C4o7Q/jeg==}
+  astro@4.14.3:
+    resolution: {integrity: sha512-+Hox1EhiS5iHy4pfZaLidpD9x7WVAcgGgjTo1JOYSQ0+a2ZA9mbLtGVEXbUeeYweviNc0ZNHMnI4r9S2e8xnXg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4008,8 +4011,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shiki@1.12.1:
-    resolution: {integrity: sha512-nwmjbHKnOYYAe1aaQyEBHvQymJgfm86ZSS7fT8OaPRr4sbAcBNz7PbfAikMEFSDQ6se2j2zobkXvVKcBOm0ysg==}
+  shiki@1.14.1:
+    resolution: {integrity: sha512-FujAN40NEejeXdzPt+3sZ3F2dx1U24BY2XTY01+MG8mbxCiA2XukXdcbyMyLAHJ/1AUUnQd1tZlvIjefWWEJeA==}
 
   side-channel@1.0.4:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
@@ -4810,6 +4813,8 @@ snapshots:
 
   '@astrojs/compiler@2.10.2': {}
 
+  '@astrojs/compiler@2.10.3': {}
+
   '@astrojs/internal-helpers@0.4.1': {}
 
   '@astrojs/markdown-remark@5.2.0':
@@ -4826,7 +4831,7 @@ snapshots:
       remark-parse: 11.0.0
       remark-rehype: 11.1.0
       remark-smartypants: 3.0.2
-      shiki: 1.12.1
+      shiki: 1.14.1
       unified: 11.0.5
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.0.0
@@ -4851,12 +4856,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@4.5.0(astro@4.14.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))':
+  '@astrojs/vue@4.5.0(astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@vitejs/plugin-vue': 5.0.5(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
       '@vitejs/plugin-vue-jsx': 4.0.0(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
       '@vue/compiler-sfc': 3.4.29
-      astro: 4.14.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
+      astro: 4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
       vite-plugin-vue-devtools: 7.3.0(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
       vue: 3.4.38(typescript@5.5.4)
     transitivePeerDependencies:
@@ -6128,7 +6133,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.21.0':
     optional: true
 
-  '@shikijs/core@1.12.1':
+  '@shikijs/core@1.14.1':
     dependencies:
       '@types/hast': 3.0.4
 
@@ -6586,9 +6591,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vite-pwa/astro@0.4.0(astro@4.14.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
+  '@vite-pwa/astro@0.4.0(astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
     dependencies:
-      astro: 4.14.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
+      astro: 4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
       vite-plugin-pwa: 0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
 
   '@vitejs/plugin-vue-jsx@4.0.0(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))':
@@ -6986,9 +6991,9 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@4.14.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4):
+  astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4):
     dependencies:
-      '@astrojs/compiler': 2.10.2
+      '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
       '@astrojs/markdown-remark': 5.2.0
       '@astrojs/telemetry': 3.1.0
@@ -7041,7 +7046,7 @@ snapshots:
       prompts: 2.4.2
       rehype: 13.0.1
       semver: 7.6.3
-      shiki: 1.12.1
+      shiki: 1.14.1
       string-width: 7.2.0
       strip-ansi: 7.1.0
       tsconfck: 3.1.1(typescript@5.5.4)
@@ -9755,9 +9760,9 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shiki@1.12.1:
+  shiki@1.14.1:
     dependencies:
-      '@shikijs/core': 1.12.1
+      '@shikijs/core': 1.14.1
       '@types/hast': 3.0.4
 
   side-channel@1.0.4:
