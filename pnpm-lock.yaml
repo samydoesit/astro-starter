@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/vue':
         specifier: 4.5.0
-        version: 4.5.0(astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
+        version: 4.5.0(astro@4.14.4(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
       astro:
-        specifier: 4.14.3
-        version: 4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
+        specifier: 4.14.4
+        version: 4.14.4(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
       vue:
         specifier: 3.4.38
         version: 3.4.38(typescript@5.5.4)
@@ -35,7 +35,7 @@ importers:
         version: 0.62.2
       '@vite-pwa/astro':
         specifier: 0.4.0
-        version: 0.4.0(astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
+        version: 0.4.0(astro@4.14.4(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
       eslint:
         specifier: 9.9.0
         version: 9.9.0(jiti@1.21.6)
@@ -131,9 +131,6 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       ajv: '>=8'
-
-  '@astrojs/compiler@2.10.2':
-    resolution: {integrity: sha512-bvH+v8AirwpRWCkYJEyWYdc5Cs/BjG2ZTxIJzttHilXgfKJAdW2496KsUQKzf5j2tOHtaHXKKn9hb9WZiBGpEg==}
 
   '@astrojs/compiler@2.10.3':
     resolution: {integrity: sha512-bL/O7YBxsFt55YHU021oL+xz+B/9HvGNId3F9xURN16aeqDK9juHGktdkCSXz+U4nqFACq6ZFvWomOzhV+zfPw==}
@@ -1873,8 +1870,8 @@ packages:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro@4.14.3:
-    resolution: {integrity: sha512-+Hox1EhiS5iHy4pfZaLidpD9x7WVAcgGgjTo1JOYSQ0+a2ZA9mbLtGVEXbUeeYweviNc0ZNHMnI4r9S2e8xnXg==}
+  astro@4.14.4:
+    resolution: {integrity: sha512-gpHGyY9qVJg1WXD/0UFoV3cdGZifhmCkJ3fuYV1zUlh+lWbjEB7/cE+KoSvj6aXHJGyLuTbvWOoxZs2yAdnREw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4830,8 +4827,6 @@ snapshots:
       jsonpointer: 5.0.1
       leven: 3.1.0
 
-  '@astrojs/compiler@2.10.2': {}
-
   '@astrojs/compiler@2.10.3': {}
 
   '@astrojs/internal-helpers@0.4.1': {}
@@ -4875,12 +4870,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@4.5.0(astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))':
+  '@astrojs/vue@4.5.0(astro@4.14.4(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@vitejs/plugin-vue': 5.0.5(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
       '@vitejs/plugin-vue-jsx': 4.0.0(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
       '@vue/compiler-sfc': 3.4.29
-      astro: 4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
+      astro: 4.14.4(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
       vite-plugin-vue-devtools: 7.3.0(rollup@2.79.1)(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))
       vue: 3.4.38(typescript@5.5.4)
     transitivePeerDependencies:
@@ -6641,9 +6636,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vite-pwa/astro@0.4.0(astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
+  '@vite-pwa/astro@0.4.0(astro@4.14.4(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
     dependencies:
-      astro: 4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
+      astro: 4.14.4(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
       vite-plugin-pwa: 0.20.1(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
 
   '@vitejs/plugin-vue-jsx@4.0.0(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))':
@@ -7025,11 +7020,11 @@ snapshots:
 
   astro-eslint-parser@0.17.0(typescript@5.5.4):
     dependencies:
-      '@astrojs/compiler': 2.10.2
+      '@astrojs/compiler': 2.10.3
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.4)
-      astrojs-compiler-sync: 0.3.2(@astrojs/compiler@2.10.2)
+      astrojs-compiler-sync: 0.3.2(@astrojs/compiler@2.10.3)
       debug: 4.3.6
       entities: 4.5.0
       eslint-visitor-keys: 3.4.3
@@ -7041,7 +7036,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@4.14.3(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4):
+  astro@4.14.4(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -7125,9 +7120,9 @@ snapshots:
       - terser
       - typescript
 
-  astrojs-compiler-sync@0.3.2(@astrojs/compiler@2.10.2):
+  astrojs-compiler-sync@0.3.2(@astrojs/compiler@2.10.3):
     dependencies:
-      '@astrojs/compiler': 2.10.2
+      '@astrojs/compiler': 2.10.3
       synckit: 0.8.8
 
   async@3.2.4: {}
