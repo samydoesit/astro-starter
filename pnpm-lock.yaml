@@ -35,7 +35,7 @@ importers:
         version: 0.62.3
       '@vite-pwa/astro':
         specifier: 0.4.1
-        version: 0.4.1(astro@4.15.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.2(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
+        version: 0.4.1(astro@4.15.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.3(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
       eslint:
         specifier: 9.9.1
         version: 9.9.1(jiti@1.21.6)
@@ -55,8 +55,8 @@ importers:
         specifier: 5.4.2
         version: 5.4.2(@types/node@18.11.18)(terser@5.16.1)
       vite-plugin-pwa:
-        specifier: 0.20.2
-        version: 0.20.2(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
+        specifier: 0.20.3
+        version: 0.20.3(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
       vue-tsc:
         specifier: ^2.1.5
         version: 2.1.5(typescript@5.5.4)
@@ -4435,8 +4435,8 @@ packages:
       '@nuxt/kit':
         optional: true
 
-  vite-plugin-pwa@0.20.2:
-    resolution: {integrity: sha512-9wLqHt/NjP7YKj6CCEKS5+Fhffo6tHGrAa+wvoqCG59oZkmpX5lBBl38MVjLaO4ELrLqjdtUhILJDwZu+q/hGQ==}
+  vite-plugin-pwa@0.20.3:
+    resolution: {integrity: sha512-aqCOWWSwfX4o6H+6NyEvhzFs3eENBqYFKUK4FYx5OZ3jGio73BE189bPz9+BBgjHBLozldQVSmZTHySVC2zNkg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@vite-pwa/assets-generator': ^0.2.4
@@ -6536,10 +6536,10 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vite-pwa/astro@0.4.1(astro@4.15.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.2(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
+  '@vite-pwa/astro@0.4.1(astro@4.15.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4))(vite-plugin-pwa@0.20.3(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
     dependencies:
       astro: 4.15.2(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.5.4)
-      vite-plugin-pwa: 0.20.2(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
+      vite-plugin-pwa: 0.20.3(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
 
   '@vitejs/plugin-vue-jsx@4.0.0(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(vue@3.4.38(typescript@5.5.4))':
     dependencies:
@@ -10205,7 +10205,7 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-pwa@0.20.2(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0):
+  vite-plugin-pwa@0.20.3(vite@5.4.2(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0):
     dependencies:
       debug: 4.3.6
       pretty-bytes: 6.1.1
