@@ -32,7 +32,7 @@
     "@vite-pwa/astro": "0.4.1",
     "eslint": "9.9.1",
     "eslint-plugin-astro": "1.2.3",
-    "eslint-plugin-jsx-a11y": "6.9.0",
+    "eslint-plugin-jsx-a11y": "6.10.0",
     "typescript": "5.5.4",
     "unocss": "0.62.3",
     "vite": "5.4.3",
