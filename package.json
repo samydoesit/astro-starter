@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "3.2.2",
-    "@unocss/eslint-config": "0.63.2",
+    "@unocss/eslint-config": "0.63.3",
     "@unocss/preset-icons": "0.63.3",
     "@unocss/preset-wind": "0.63.3",
     "@unocss/reset": "0.63.3",
