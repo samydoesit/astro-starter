@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/vue':
         specifier: 4.5.2
-        version: 4.5.2(astro@4.16.5(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3))(rollup@2.79.1)(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(vue@3.5.12(typescript@5.6.3))
+        version: 4.5.2(astro@4.16.6(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3))(rollup@2.79.1)(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(vue@3.5.12(typescript@5.6.3))
       astro:
-        specifier: 4.16.5
-        version: 4.16.5(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3)
+        specifier: 4.16.6
+        version: 4.16.6(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3)
       vue:
         specifier: 3.5.12
         version: 3.5.12(typescript@5.6.3)
@@ -35,7 +35,7 @@ importers:
         version: 0.63.4
       '@vite-pwa/astro':
         specifier: 0.4.3
-        version: 0.4.3(astro@4.16.5(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3))(vite-plugin-pwa@0.20.5(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
+        version: 0.4.3(astro@4.16.6(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3))(vite-plugin-pwa@0.20.5(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))
       eslint:
         specifier: 9.9.1
         version: 9.9.1(jiti@2.0.0)
@@ -2000,8 +2000,8 @@ packages:
     resolution: {integrity: sha512-8hJaCuqxObShWl2wEsnASqh/DbQ2O+S66m0Q3ctJlzBPEQ4pfGwwama3FCjZO3GDLQsjvn1T0v93Vxyu/+5fGw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@4.16.5:
-    resolution: {integrity: sha512-v8mKWcEPN7hkfyVsMFWV0F8UgL4GUJKT172KTB7dePO3yJb64HBwCckC0QnA60QQh3jK6+2xwyWEc5QvCeqjtg==}
+  astro@4.16.6:
+    resolution: {integrity: sha512-LMMbjr+4aN26MOyJzTdjM+Y+srpAIkx7IX9IcdF3eHQLGr8PgkioZp+VQExRfioDIyA2HY6ottVg3QccTzJqYA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4875,12 +4875,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@4.5.2(astro@4.16.5(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3))(rollup@2.79.1)(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(vue@3.5.12(typescript@5.6.3))':
+  '@astrojs/vue@4.5.2(astro@4.16.6(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3))(rollup@2.79.1)(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(vue@3.5.12(typescript@5.6.3))':
     dependencies:
       '@vitejs/plugin-vue': 5.1.4(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(vue@3.5.12(typescript@5.6.3))
       '@vitejs/plugin-vue-jsx': 4.0.1(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(vue@3.5.12(typescript@5.6.3))
       '@vue/compiler-sfc': 3.5.11
-      astro: 4.16.5(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3)
+      astro: 4.16.6(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3)
       vite-plugin-vue-devtools: 7.4.6(rollup@2.79.1)(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(vue@3.5.12(typescript@5.6.3))
       vue: 3.5.12(typescript@5.6.3)
     transitivePeerDependencies:
@@ -6732,9 +6732,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vite-pwa/astro@0.4.3(astro@4.16.5(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3))(vite-plugin-pwa@0.20.5(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
+  '@vite-pwa/astro@0.4.3(astro@4.16.6(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3))(vite-plugin-pwa@0.20.5(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0))':
     dependencies:
-      astro: 4.16.5(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3)
+      astro: 4.16.6(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3)
       vite-plugin-pwa: 0.20.5(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(workbox-build@7.0.0(@types/babel__core@7.20.5))(workbox-window@7.0.0)
 
   '@vitejs/plugin-vue-jsx@4.0.1(vite@5.4.9(@types/node@18.11.18)(terser@5.16.1))(vue@3.5.12(typescript@5.6.3))':
@@ -6837,7 +6837,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.11':
     dependencies:
-      '@babel/parser': 7.25.4
+      '@babel/parser': 7.25.8
       '@vue/shared': 3.5.11
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -7093,7 +7093,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@4.16.5(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3):
+  astro@4.16.6(@types/node@18.11.18)(rollup@2.79.1)(terser@5.16.1)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
